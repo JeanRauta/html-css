@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+body{
+    font-family:sans-serif;
+}
+
+
+a{
+    color: crimson;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+
+a:visited{
+    color: rgb(86, 255, 89);
+}
+
+
+a:hover{
+    text-decoration: underline;
+    background-image: linear-gradient(#fff, rgb(82, 81, 81))
+}
+a:active{
+    color: #000;
+
+}
+
+
+h1{
+    font-size: 3em;
+    color:crimson;
+}
+a::after{
+    content: "jean";
+}

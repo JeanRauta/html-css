@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <style>
+        body{
+            height: 100vh;
+            background-image: url('imagens/wallpaper005.jpg');
+            background-position:left top;
+            background-size: 266vh;
+        }
+        .u{
+            text-decoration: none;
+            color: #000;
+            display: block;
+            width: 30px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        nav:hover{
+            background-color: rgba(0, 0, 0, 0.322);
+            transition: 1s;
+            width: 300px;
+            outline: 7px solid transparent;
+            box-shadow: 3px 3px 6px #000000a3;
+           
+        }
+        nav:hover > ul{
+            display:block;
+            transition: 0.5s;
+            outline: 3px solid rgba(0, 0, 0, 0.322);
+            box-shadow: inset 1px 1px 10px #00000030;
+
+        }
+        nav:hover > .u{
+            color: #ffffff9f;
+            transition: 0.2s;
+        }
+        ul{
+            display: none;
+            list-style-type: none;
+            padding: 0px;
+            margin: 0px;
+        }
+        .u{
+           font-size: 30px;
+        }
+        .u:hover{
+            color: #fcfcfc3e;
+        }
+        a{
+            font-size: 17px;
+            text-decoration: none;
+            color: #000000c2;
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-shadow: 1px 1px 5px #fff;
+        }
+        li > a:hover{
+            color: rgba(240, 248, 255, 0.751);
+            transition:0.2s;
+        }
+        li{
+            margin-bottom: 8px;
+            margin-left: 10px;
+            margin-top: 10px;
+        }
+        .fim{
+            padding-bottom: 17px;
+        }
+        .inicio{
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#" class="u">☰</a>
+                <ul>
+                    <li class="inicio"><a href="#">Menu</a></li>
+                    <li><a href="#">Login</a></li>
+                    <li><a href="#">Cadastrar-se</a></li>
+                    <li class="fim"><a href="#">Fale conosco</a></li>
+                </ul>
+        </nav>
+    </header>
+</body>
+</html>
