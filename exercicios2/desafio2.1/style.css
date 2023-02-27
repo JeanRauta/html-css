@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+
+:root{
+    --font_do_texto: cursive;
+    --espaço_entre_linhas: 2em;
+    --fundo_font: rgba(0, 0, 0, 0.596);
+}
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+header{
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    color: white;
+    text-align: center;
+}
+header > h1{
+    font-size: 87px;
+    font-family: var(--font_do_texto);
+    font-weight: 500;
+}
+header > p{
+    font-size: larger;
+    font-family: var(--font_do_texto);
+}
+header > p > a{
+    text-decoration: none;
+    color: white;
+    font-variant: small-caps;
+}
+header > p > a:hover{
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.199);
+    border-radius: 8px;
+    padding: 0px 2px;
+}
+section{
+    font-family: var(--font_do_texto);
+    font-size: xx-large;
+    font-weight: bolder;
+    line-height: var(--espaço_entre_linhas);
+    text-align: left;
+}
+section > p{
+    padding-left: 34px;
+    padding-top: 10vh;
+    padding-bottom:10vh ;
+}
+section > p{
+    padding-left: 34px;
+    padding-top: 10vh;
+    padding-bottom:10vh ;
+}
+.imagem{
+    background: black url(imagens/444.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+#img2{
+    background: black url(imagens/1234.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+section > img{
+    background-color: aqua;
+}
