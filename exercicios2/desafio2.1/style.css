@@ -56,18 +56,6 @@ section.duas > p{
     padding-top: 2vh;
     padding-bottom:5vh ;
 }
-.imagem{
-    background: black url(imagens/444.jpg) center center no-repeat fixed;
-    background-size: cover;
-    margin-bottom: 58px;
-    margin-top: 48px;
-    box-shadow: inset 0px 6px 4px rgba(0, 0, 0, 0.205);
-}
-#img2{
-    /* essa é a outra div com imagem fixed */
-    background: black url(imagens/1234.jpg) center center no-repeat fixed;
-    background-size: cover;
-}
 #mark{
     background-color: rgba(0, 0, 0, 0.521);
     color: white;
@@ -81,4 +69,16 @@ section.duas > p{
     padding-left: 15px;
     text-shadow: 1px 1px 2px black;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.411);
+}
+.imagem{
+    background: black url(imagens/444.jpg) center center no-repeat fixed;
+    background-size: cover;
+    margin-bottom: 58px;
+    margin-top: 48px;
+    box-shadow: inset 0px 6px 4px rgba(0, 0, 0, 0.205);
+}
+.imagem #img2{
+    /* essa é a outra div com imagem fixed */
+    background: black url(imagens/1234.jpg) center center no-repeat fixed;
+    background-size: cover;
 }
