@@ -42,6 +42,7 @@ header > p > a:hover{
     background-color: rgba(255, 255, 255, 0.199);
     border-radius: 8px;
     padding: 0px 2px;
+    transition: 0.4s;
 }
 
 /* -------------------------------------- */
@@ -94,4 +95,29 @@ section.duas > p{
 .imagem#img2{
     background: black url(imagens/1234.jpg) center center no-repeat fixed;
     background-size: cover;
+}
+
+/* -------------------------------------- */
+/* configurações do footer */
+footer{
+    background-color: black;
+    position: sticky;
+    bottom: 0px;
+    text-align: center;
+}
+#config_do_footer{
+    color: white;
+    font-weight: bold;
+    font-size:medium ;
+}
+mark{
+    background-color: rgb(255, 255, 255);
+}
+mark:hover{
+    text-decoration: underline;
+    background-color: rgba(255, 255, 255, 0.199);
+    border-radius: 8px;
+    padding: 0px 2px;
+    transition: 0.4s;
+    color: aliceblue;
 }
