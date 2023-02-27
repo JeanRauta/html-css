@@ -1,16 +1,21 @@
 @charset "UTF-8";
 
-
+/* variaveis */
 :root{
     --font_do_texto: cursive;
     --espaço_entre_linhas: 2em;
     --fundo_font: rgba(0, 0, 0, 0.596);
 }
 
+/* -------------------------------------- */
+/* configuração raiz */
 *{
     padding: 0px;
     margin: 0px;
 }
+
+/* -------------------------------------- */
+/* configuração do header */
 header{
     background-color: black;
     padding-top: 30px;
@@ -38,6 +43,9 @@ header > p > a:hover{
     border-radius: 8px;
     padding: 0px 2px;
 }
+
+/* -------------------------------------- */
+/* configuração do conteudo main */
 section{
     font-family: var(--font_do_texto);
     font-size: xx-large;
@@ -56,6 +64,9 @@ section.duas > p{
     padding-top: 2vh;
     padding-bottom:5vh ;
 }
+
+/* -------------------------------------- */
+/* configuração do texto nas imagens */
 #mark{
     background-color: rgba(0, 0, 0, 0.521);
     color: white;
@@ -70,6 +81,9 @@ section.duas > p{
     text-shadow: 1px 1px 2px black;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.411);
 }
+
+/* -------------------------------------- */
+/* configuração das imagens */
 .imagem{
     background: black url(imagens/444.jpg) center center no-repeat fixed;
     background-size: cover;
@@ -77,8 +91,7 @@ section.duas > p{
     margin-top: 48px;
     box-shadow: inset 0px 6px 4px rgba(0, 0, 0, 0.205);
 }
-.imagem #img2{
-    /* essa é a outra div com imagem fixed */
+.imagem#img2{
     background: black url(imagens/1234.jpg) center center no-repeat fixed;
     background-size: cover;
 }
