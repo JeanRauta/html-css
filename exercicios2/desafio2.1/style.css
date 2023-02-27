@@ -109,6 +109,7 @@ footer{
     color: white;
     font-weight: bold;
     font-size:medium ;
+    padding: 2px;
 }
 mark{
     background-color: rgb(255, 255, 255);
