@@ -16,12 +16,25 @@
         table{
             width: 300px;
             border-collapse:collapse;
+            margin: auto;
+            margin-top: 70px;
+            margin-bottom: 70px;
+            position: relative;
         }
-        .header > th{
+        tbody > tr:nth-child(2n){
+            background-color: darkgrey;
+            font-size: xx-large;
+        }
+        thead >.header > th{
             border: 1px solid black;
             height: 30px;
             background-color: rgb(136, 136, 136);
             color: white;
+            top:0;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: 0;
         }
         tfoot > tr > th{
             border: 1px solid black;
@@ -30,36 +43,117 @@
             color: white;
             
         }
-
+        caption{
+            border: 1px solid black;
+            color: rgb(0, 0, 0);
+            font-variant: small-caps;
+            text-transform: capitalize;
+            font-size: x-large;
+            background-attachment:fixed;
+            transform: none;
+          bottom: 1px;
+        }
     </style>
 </head>
 <body>
-    <h1>Tabela</h1>
     <table>
+        <caption>Teste de table</caption>
        <thead>
         <tr class="header">
-            <th>teste A</th>
-            <th>teste B</th>
-            <th>teste C</th>
+            <th scope="col">teste A</th>
+            <th scope="col">teste B</th>
+            <th scope="col">teste C</th>
         </tr>
        </thead>
-        <tr>
-            <td>a1</td>
-            <td>b2</td>
-            <td>c1</td>
-        </tr>
-            <td>a2</td>
-            <td>b2</td>
-            <td>c2</td>
-        </tr>
-        </tr>
-            <td>a3</td>
-            <td>b3</td>
-            <td>c3</td>
-        </tr>
+        <tbody>
+            <tr>
+                <td>a1</td>
+                <td>b2</td>
+                <td>c1</td>
+            </tr>
+                <td>a2</td>
+                <td>b2</td>
+                <td>c2</td>
+            </tr>
+            </tr>
+                <td>a3</td>
+                <td>b3</td>
+                <td>c3</td>
+            </tr>
+            <tr>
+                <td>a1</td>
+                <td>b2</td>
+                <td>c1</td>
+            </tr>
+                <td>a2</td>
+                <td>b2</td>
+                <td>c2</td>
+            </tr>
+            </tr>
+                <td>a3</td>
+                <td>b3</td>
+                <td>c3</td>
+            </tr>
+            <tr>
+                <td>a1</td>
+                <td>b2</td>
+                <td>c1</td>
+            </tr>
+                <td>a2</td>
+                <td>b2</td>
+                <td>c2</td>
+            </tr>
+            </tr>
+                <td>a3</td>
+                <td>b3</td>
+                <td>c3</td>
+            </tr>
+            <tr>
+                <td>a1</td>
+                <td>b2</td>
+                <td>c1</td>
+            </tr>
+                <td>a2</td>
+                <td>b2</td>
+                <td>c2</td>
+            </tr>
+            </tr>
+                <td>a3</td>
+                <td>b3</td>
+                <td>c3</td>
+            </tr>
+            <tr>
+                <td>a1</td>
+                <td>b2</td>
+                <td>c1</td>
+            </tr>
+                <td>a2</td>
+                <td>b2</td>
+                <td>c2</td>
+            </tr>
+            </tr>
+                <td>a3</td>
+                <td>b3</td>
+                <td>c3</td>
+            </tr>
+            <tr>
+                <td>a1</td>
+                <td>b2</td>
+                <td>c1</td>
+            </tr>
+                <td>a2</td>
+                <td>b2</td>
+                <td>c2</td>
+            </tr>
+            </tr>
+                <td>a3</td>
+                <td>b3</td>
+                <td>c3</td>
+            </tr>
+        </tbody>
         <tfoot>
             <tr>
-                <th>total</th>
+                <th scope="row">total</th>
                 <td>0000</td>
             </tr>
         </tfoot>
