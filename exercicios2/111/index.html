@@ -7,20 +7,42 @@
     <title>Tabelas</title>
     <style>
         td{
-            border: 1px solid rgb(25, 0, 255);
-            color: rgb(255, 0, 0);
-            box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.466);
-            text-shadow: 0.4px 0.4px 0px black;
-           
+            border: 1px solid rgb(0, 0, 0);
+            width: 80px;
+            height: 80px;
+            text-align: center;
+            vertical-align: middle;
         }
         table{
-            width: 300px; border-collapse:collapse;
+            width: 300px;
+            border-collapse:collapse;
         }
+        .header > th{
+            border: 1px solid black;
+            height: 30px;
+            background-color: rgb(136, 136, 136);
+            color: white;
+        }
+        tfoot > tr > th{
+            border: 1px solid black;
+            height: 30px;
+            background-color: rgb(136, 136, 136);
+            color: white;
+            
+        }
+
     </style>
 </head>
 <body>
     <h1>Tabela</h1>
     <table>
+       <thead>
+        <tr class="header">
+            <th>teste A</th>
+            <th>teste B</th>
+            <th>teste C</th>
+        </tr>
+       </thead>
         <tr>
             <td>a1</td>
             <td>b2</td>
@@ -35,6 +57,12 @@
             <td>b3</td>
             <td>c3</td>
         </tr>
+        <tfoot>
+            <tr>
+                <th>total</th>
+                <td>0000</td>
+            </tr>
+        </tfoot>
     </table>
 </body>
 </html>
