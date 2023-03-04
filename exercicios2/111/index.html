@@ -4,159 +4,198 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tabelas</title>
+    <title>Document</title>
     <style>
-        td{
-            border: 1px solid rgb(0, 0, 0);
-            width: 80px;
-            height: 80px;
-            text-align: center;
-            vertical-align: middle;
-        }
         table{
-            width: 300px;
-            border-collapse:collapse;
-            margin: auto;
-            margin-top: 70px;
-            margin-bottom: 70px;
-            position: relative;
-        }
-        tbody > tr:nth-child(2n){
-            background-color: darkgrey;
-            font-size: xx-large;
-        }
-        thead >.header > th{
-            border: 1px solid black;
-            height: 30px;
-            background-color: rgb(136, 136, 136);
-            color: white;
-            top:0;
-        }
-        thead > tr > th{
-            position: sticky;
-            top: 0;
-        }
-        tfoot > tr > th{
-            border: 1px solid black;
-            height: 30px;
-            background-color: rgb(136, 136, 136);
-            color: white;
+            border-collapse: collapse;
             
         }
-        caption{
+        td{
             border: 1px solid black;
-            color: rgb(0, 0, 0);
-            font-variant: small-caps;
-            text-transform: capitalize;
-            font-size: x-large;
-            background-attachment:fixed;
-            transform: none;
-          bottom: 1px;
+            text-align: center;width: 50px;
+            height: 50px;
         }
     </style>
 </head>
 <body>
     <table>
-        <caption>Teste de table</caption>
-       <thead>
-        <tr class="header">
-            <th scope="col">teste A</th>
-            <th scope="col">teste B</th>
-            <th scope="col">teste C</th>
-        </tr>
-       </thead>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Job</th>
+            <th colspan="2">Color</th>
+            
+          </tr>
+        </thead>
         <tbody>
-            <tr>
-                <td>a1</td>
-                <td>b2</td>
-                <td>c1</td>
-            </tr>
-                <td>a2</td>
-                <td>b2</td>
-                <td>c2</td>
-            </tr>
-            </tr>
-                <td>a3</td>
-                <td>b3</td>
-                <td>c3</td>
-            </tr>
-            <tr>
-                <td>a1</td>
-                <td>b2</td>
-                <td>c1</td>
-            </tr>
-                <td>a2</td>
-                <td>b2</td>
-                <td>c2</td>
-            </tr>
-            </tr>
-                <td>a3</td>
-                <td>b3</td>
-                <td>c3</td>
-            </tr>
-            <tr>
-                <td>a1</td>
-                <td>b2</td>
-                <td>c1</td>
-            </tr>
-                <td>a2</td>
-                <td>b2</td>
-                <td>c2</td>
-            </tr>
-            </tr>
-                <td>a3</td>
-                <td>b3</td>
-                <td>c3</td>
-            </tr>
-            <tr>
-                <td>a1</td>
-                <td>b2</td>
-                <td>c1</td>
-            </tr>
-                <td>a2</td>
-                <td>b2</td>
-                <td>c2</td>
-            </tr>
-            </tr>
-                <td>a3</td>
-                <td>b3</td>
-                <td>c3</td>
-            </tr>
-            <tr>
-                <td>a1</td>
-                <td>b2</td>
-                <td>c1</td>
-            </tr>
-                <td>a2</td>
-                <td>b2</td>
-                <td>c2</td>
-            </tr>
-            </tr>
-                <td>a3</td>
-                <td>b3</td>
-                <td>c3</td>
-            </tr>
-            <tr>
-                <td>a1</td>
-                <td>b2</td>
-                <td>c1</td>
-            </tr>
-                <td>a2</td>
-                <td>b2</td>
-                <td>c2</td>
-            </tr>
-            </tr>
-                <td>a3</td>
-                <td>b3</td>
-                <td>c3</td>
-            </tr>
-        </tbody>
-        <tfoot>
-            <tr>
-                <th scope="row">total</th>
-                <td>0000</td>
-            </tr>
-        </tfoot>
-    </table>
+          <tr>
+            <td>Lorem.</td>
+            <td>Ullam.</td>
+            <td>Vel.</td>
+            <td  colspan="2", rowspan="3" >At.</td>
+            
+          </tr>
+          <tr>
+            <td>Quas!</td>
+            <td>Velit.</td>
+            <td>Quisquam?</td>
+           
+          </tr>
+          <tr>
+            <td>Voluptates!</td>
+            <td>Fugiat?</td>
+            <td>Alias.</td>
+            
+          </tr>
+          <tr>
+            <td>Maiores.</td>
+            <td>Ab.</td>
+            <td>Accusantium.</td>
+            <td>Ullam!</td>
+            <td>Eveniet.</td>
+          </tr>
+          <tr>
+            <td>Hic.</td>
+            <td>Id!</td>
+            <td>Officiis.</td>
+            <td>Modi!</td>
+            <td>Obcaecati.</td>
+          </tr>
+          <tr>
+            <td>Soluta.</td>
+            <td>Ad!</td>
+            <td>Impedit.</td>
+            <td>Alias!</td>
+            <td>Ad.</td>
+          </tr>
+          <tr>
+            <td>Expedita.</td>
+            <td>Quo.</td>
+            <td>Exercitationem!</td>
+            <td>Optio?</td>
+            <td>Ipsum?</td>
+          </tr>
+          <tr>
+            <td>Commodi!</td>
+            <td>Rem.</td>
+            <td>Aspernatur.</td>
+            <td>Accusantium!</td>
+            <td>Maiores.</td>
+          </tr>
+          <tr>
+            <td>Omnis.</td>
+            <td>Cumque?</td>
+            <td>Eveniet!</td>
+            <td>Mollitia?</td>
+            <td>Vero.</td>
+          </tr>
+          <tr>
+            <td>Error!</td>
+            <td>Inventore.</td>
+            <td>Quasi!</td>
+            <td>Ducimus.</td>
+            <td>Repudiandae!</td>
+          </tr>
+          <tr>
+            <td>Dolores!</td>
+            <td>Necessitatibus.</td>
+            <td>Corrupti!</td>
+            <td>Eum.</td>
+            <td>Sunt!</td>
+          </tr>
+          <tr>
+            <td>Ea.</td>
+            <td>Culpa?</td>
+            <td>Quam?</td>
+            <td>Nemo!</td>
+            <td>Sit!</td>
+          </tr>
+          <tr>
+            <td>Veritatis!</td>
+            <td>Facilis.</td>
+            <td>Expedita?</td>
+            <td>Ipsam!</td>
+            <td>Omnis!</td>
+          </tr>
+          <tr>
+            <td>Vitae.</td>
+            <td>Cumque.</td>
+            <td>Repudiandae.</td>
+            <td>Ut?</td>
+            <td>Sed!</td>
+          </tr>
+          <tr>
+            <td>Accusantium.</td>
+            <td>Adipisci.</td>
+            <td>Sit.</td>
+            <td>Maxime.</td>
+            <td>Harum.</td>
+          </tr>
+          <tr>
+            <td>Qui!</td>
+            <td>Accusamus?</td>
+            <td>Minima?</td>
+            <td>Dolorum.</td>
+            <td>Molestiae.</td>
+          </tr>
+          <tr>
+            <td>Vero!</td>
+            <td>Voluptatum?</td>
+            <td>Ea?</td>
+            <td>Odit!</td>
+            <td>A.</td>
+          </tr>
+          <tr>
+            <td>Debitis.</td>
+            <td>Veniam.</td>
+            <td>Fuga.</td>
+            <td>Alias!</td>
+            <td>Recusandae!</td>
+          </tr>
+          <tr>
+            <td>Aperiam!</td>
+            <td>Dolorum.</td>
+            <td>Enim.</td>
+            <td>Sapiente!</td>
+            <td>Suscipit?</td>
+          </tr>
+          <tr>
+            <td>Consequuntur.</td>
+            <td>Doloremque.</td>
+            <td>Illum!</td>
+            <td>Iste!</td>
+            <td>Sint!</td>
+          </tr>
+          <tr>
+            <td>Facilis.</td>
+            <td>Error.</td>
+            <td>Fugiat.</td>
+            <td>At.</td>
+            <td>Modi?</td>
+          </tr>
+          <tr>
+            <td>Voluptatibus!</td>
+            <td>Alias.</td>
+            <td>Eaque.</td>
+            <td>Cum.</td>
+            <td>Ducimus!</td>
+          </tr>
+          <tr>
+            <td>Nihil.</td>
+            <td>Enim.</td>
+            <td>Earum?</td>
+            <td>Nobis?</td>
+            <td>Eveniet.</td>
+          </tr>
+          <tr>
+            <td>Eum!</td>
+            <td>Id?</td>
+            <td>Molestiae.</td>
+            <td>Velit.</td>
+            <td>Minima.</td>
+          </tr>
+          </tbody>
+          </table>
 </body>
 </html>
